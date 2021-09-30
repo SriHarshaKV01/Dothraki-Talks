@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeon Sung', cursive;
+    
+}
+
+.bg{
+    overflow-x: hidden;
+    
+}
+.bg img{
+    width: 100%;
+    /* object-fit: cover; */
+    opacity: 0.9;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    margin-top: 2rem;
+    
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    padding:1rem ;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav h1{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+.nav-para{
+    font-size: large;
+}
+
+.txt-input{
+    display: block;
+    /* text-align: center; */
+    width: 80%;
+    margin: auto;
+    height: 15vh;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: medium;
+    background-color: black;
+    opacity: 0.4; 
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.btn{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 2rem;
+    height: 1rem; */
+    background-color: black;
+    opacity: 0.4; 
+    border: none;
+    padding: 0.75rem;  
+    border-radius: 1rem;
+    width: 20%;
+    font-size: medium;
+    margin-top: 2rem;
+    border: 2px solid rgba(0, 0, 0, 0.363);
+    color: white;
+
+    
+}
+
+.para{
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.75rem;
+}
+
+.output{
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+    height: 15vh;
+    /* margin: 1rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: black;
+    opacity: 0.4; 
+    color: white;
+    font-weight: 700;
+
+}
